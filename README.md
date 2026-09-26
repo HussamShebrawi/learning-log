@@ -1,2 +1,3 @@
-# learning-log
-Daily engineering log + English vocabulary bank
+Daily engineering log + English vocabulary bank.
+
+Maintained since Sep 2026.
