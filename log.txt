@@ -27,3 +27,5 @@ Stuck: the log file keeps growing across runs because logging uses append mode, 
 [2026-09-22] S16
 Done: Completed T1 (LinkedIn profile): wrote Headline (AI & Robotics Student | Python · CSV Validation · pytest · Git | Expected June 2027), Education (BSc AI & Robotics, BAU, Feb 2024 – Jun 2027), About (with real numbers: 6 checks, 5 pytest tests, 31 commits), Experience (Student – AI & Robotics at BAU, Feb 2024 – Present), Website (GitHub link in Contact info), and Skills (6 BUILT only: Python, pytest, Git, Data Validation, CSV, Logging). Removed duplicate Education entry (School Leaving Certificate). Answered three "why" questions on the profile choices. Wrote LinkedIn post (T2), revised it through two critique rounds (T3), and published it. Word count: 108 words. Completed English E2 (words 71–75: headline, recruiter, evidence, concise, milestone) with 3 shadowing sentences, 3 completions, and 2 free sentences.
 Stuck: none — T1, T2, T3, and T5 all complete. T4 (CV v0.2) is next.
+Done: S17 — 2026-09-27 — polished GitHub repo + LinkedIn profile (About, Featured, custom URL); moved logs to learning-log; CV updated.
+Stuck: none

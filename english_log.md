@@ -222,3 +222,48 @@
 
 1. A recruiter looks for evidence, not adjectives — so I kept my post concise.
 2. Every milestone starts with a small, honest headline.
+
+## English Log — Words 76–80
+
+## 76. storefront (n.)
+- **Meaning (AR):** واجهة المتجر — الشكل العام الظاهر للآخرين
+- **Example:** My GitHub profile is my developer storefront — it's the first thing a recruiter sees.
+
+## 77. discoverable (adj.)
+- **Meaning (AR):** قابل للاكتشاف — سهل يلاقيه الناس بالبحث
+- **Example:** With 7 topics on GitHub, my repo is more discoverable.
+
+## 78. topic (n.)
+- **Meaning (AR):** موضوع / وسم تصنيفي
+- **Example:** I added 7 topics to my repo: python, pytest, csv, and more.
+
+## 79. pin (v.)
+- **Meaning (AR):** يثبّت — يحط شي في مكان بارز لا يتحرك
+- **Example:** I pinned my Project 1 post to the Featured section on LinkedIn.
+
+## 80. first-person (adj.)
+- **Meaning (AR):** بصيغة المتكلم — يستخدم I / my / me
+- **Example:** My About section is first-person, so it sounds like me, not a bio.
+
+---
+
+## Shadowing (3 sentences from my About)
+
+1. "I am an AI & Robotics student at Al-Balqa Applied University, expected to graduate in June 2027."
+2. "I built a Python CLI tool that cleans student CSV records, using 6 data-quality checks and 5 pytest tests."
+3. "Open to internships and student projects where I can apply my Python and data-validation experience."
+
+---
+
+## Completions
+
+- Now that my repo has a description and seven topics, it is more **discoverable** because anyone searching for "python csv cleaner" can actually find it.
+- I decided to **pin** my Project 1 post to the Featured section because a recruiter spends only a few seconds on my profile.
+- My GitHub profile is my developer **storefront** because it is the first place where a recruiter sees what I actually built, not just what I claim to know.
+
+---
+
+## Free Sentences
+
+1. Today I moved my learning logs out of my code repo — the cleaner the repo, the easier it is to review.
+2. Cleaning up my LinkedIn URL taught me that small details matter more than big claims.
