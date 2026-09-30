@@ -267,3 +267,48 @@
 
 1. Today I moved my learning logs out of my code repo — the cleaner the repo, the easier it is to review.
 2. Cleaning up my LinkedIn URL taught me that small details matter more than big claims.
+
+## English Log — Words 81–85
+
+## 81. query (n.)
+- **Meaning (AR):** استعلام — سؤال أو طلب يُرسل إلى قاعدة البيانات
+- **Example:** I wrote a simple SQL query to show all students in the `students` table.
+
+## 82. table (n.)
+- **Meaning (AR):** جدول — بيانات منظّمة في صفوف وأعمدة
+- **Example:** I created a `students` table with six columns: student_id, name, age, email, grade, and major.
+
+## 83. database (n.)
+- **Meaning (AR):** قاعدة بيانات — مجموعة منظّمة من البيانات
+- **Example:** My project now uses a SQLite database called `students.db`.
+
+## 84. declarative (adj.)
+- **Meaning (AR):** تصريحي — يصف النتيجة المطلوبة، لا خطوات تنفيذها
+- **Example:** SQL is declarative — I just say what I want, and the database decides how to get it.
+
+## 85. filter (n.)
+- **Meaning (AR):** فلتر — شرط يُبقي الصفوف المطابقة فقط
+- **Example:** `WHERE` works as a filter because it keeps only the rows that match the condition.
+
+---
+
+## Shadowing (3 SQL queries I wrote)
+
+1. "SELECT * FROM students WHERE major = 'CS';"
+2. "SELECT * FROM students ORDER BY grade DESC;"
+3. "SELECT COUNT(*) FROM students WHERE major = 'Robotics';"
+
+---
+
+## Completions
+
+- I use a SQL **query** to ask the database for data.
+- A **table** stores related data in rows and columns.
+- `WHERE` acts as a **filter** because it keeps matching rows.
+
+---
+
+## Free Sentences
+
+1. Yesterday I created a new **database** file for my project, and it made working with the cleaned CSV much easier.
+2. I like that SQL is **declarative** because I can focus on the result I want, not on how the engine gets it.

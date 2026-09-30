@@ -29,3 +29,5 @@ Done: Completed T1 (LinkedIn profile): wrote Headline (AI & Robotics Student | P
 Stuck: none — T1, T2, T3, and T5 all complete. T4 (CV v0.2) is next.
 Done: S17 — 2026-09-27 — polished GitHub repo + LinkedIn profile (About, Featured, custom URL); moved logs to learning-log; CV updated.
 Stuck: none
+Done: S18 — 2026-09-29 — SQL basics (SELECT, WHERE, ORDER BY, LIMIT, LIKE, COUNT) + English E2 vocab 81–85; committed to learning-log.
+Stuck: none
