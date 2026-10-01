@@ -31,3 +31,5 @@ Done: S17 — 2026-09-27 — polished GitHub repo + LinkedIn profile (About, Fea
 Stuck: none
 Done: S18 — 2026-09-29 — SQL basics (SELECT, WHERE, ORDER BY, LIMIT, LIKE, COUNT) + English E2 vocab 81–85; committed to learning-log.
 Stuck: none
+Done: S19 — 2026-10-01 — SQL aggregation (GROUP BY, HAVING, AVG, MIN/MAX, COUNT, ORDER BY); all 6 drills + trap check with 0 hints; imported students_raw (56 rows) from raw CSV; English E2 vocab 86–90 + shadowing; committed to learning-log.
+Stuck: none

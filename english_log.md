@@ -312,3 +312,51 @@
 
 1. Yesterday I created a new **database** file for my project, and it made working with the cleaned CSV much easier.
 2. I like that SQL is **declarative** because I can focus on the result I want, not on how the engine gets it.
+
+
+---
+
+## English Log — Words 86–90
+
+## 86. aggregate (n./v.)
+- **Meaning (AR):** تجميع / مُجمَّع — قيمة ملخّصة واحدة تُحسب من عدة صفوف
+- **Example:** `AVG(grade)` is an aggregate function that returns a single value from many rows.
+
+## 87. group (n./v.)
+- **Meaning (AR):** مجموعة — مجموعة صفوف تشترك في نفس القيمة، يُنشئها `GROUP BY`
+- **Example:** I used `GROUP BY major` to group the students by their major.
+
+## 88. average (n./adj.)
+- **Meaning (AR):** متوسط — مجموع القيم مقسومًا على عددها، يُحسب بـ`AVG()`
+- **Example:** The average grade for Robotics was 84.41, the highest of all majors.
+
+## 89. collapse (v./n.)
+- **Meaning (AR):** يطوي — يقلّص عدة صفوف إلى نتيجة ملخّصة واحدة
+- **Example:** Aggregate functions collapse many rows into one result.
+
+## 90. HAVING (conj. — SQL keyword)
+- **Meaning (AR):** شرط على المجموعات بعد التجميع (بخلاف `WHERE` الذي يفلتر الصفوف قبله)
+- **Example:** `HAVING AVG(grade) > 70` filters groups after aggregation, not individual rows.
+
+---
+
+## Shadowing (3 SQL queries I wrote)
+
+1. "Calculate the average grade for each major."
+2. "Group the students by major."
+3. "Show the majors having an average grade above seventy."
+
+---
+
+## Completions
+
+- `AVG` calculates the **average** of several numeric values.
+- Aggregate functions **collapse** many rows into one result.
+- In SQL, **HAVING** applies a condition to groups after aggregation.
+
+---
+
+## Free Sentences
+
+1. An **aggregate** function like `COUNT()` returns one summary value from many rows.
+2. I learned to **group** students by major so I can calculate per-group averages.
