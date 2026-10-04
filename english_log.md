@@ -360,3 +360,51 @@
 
 1. An **aggregate** function like `COUNT()` returns one summary value from many rows.
 2. I learned to **group** students by major so I can calculate per-group averages.
+
+
+---
+
+## English Log — Words 91–95
+
+## 91. join (v./n.)
+- **Meaning (AR):** يربط / ربط — توصيل جدولين عبر عمود مشترك
+- **Example:** I join the two tables on the major column.
+
+## 92. key (n.)
+- **Meaning (AR):** مفتاح — عمود يعرّف الصف أو يربط بجدول آخر
+- **Example:** `major_name` is the primary **key**.
+
+## 93. relation / relationship (n.)
+- **Meaning (AR):** علاقة — الرابط بين جدولين
+- **Example:** There is a **relationship** between students and majors.
+
+## 94. match (v./n.)
+- **Meaning (AR):** يطابق / تطابق — تتساوى قيمتان حتى يُقرن صفّان
+- **Example:** Every student **matches** one major.
+
+## 95. null (n./adj.)
+- **Meaning (AR):** قيمة فارغة — ليست صفراً ولا نصاً فارغاً
+- **Example:** The columns are **null** because nothing matched.
+
+---
+
+## Shadowing (3× — done)
+
+1. "inner join majors **on** s dot major **equals** m dot major name"
+2. "count of s dot student i-d **as** student count"
+3. "left join students, **group by** m dot major name"
+
+---
+
+## Completions
+
+1. An INNER JOIN removes the rows that **do not have a match in both tables**.
+2. In a LEFT JOIN, the columns from the right table become **null**.
+3. A primary key is useful because **it identifies each row uniquely and links tables together**.
+
+---
+
+## Free Sentences
+
+1. Today I learned that **an INNER JOIN keeps only the rows that match in both tables, while a LEFT JOIN keeps all rows from the left table even if there is no match**.
+2. I also learned that **`COUNT(column)` ignores null values, but `COUNT(*)` counts every row, even if its columns are null**.
