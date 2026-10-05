@@ -35,3 +35,4 @@ Done: S19 — 2026-10-01 — SQL aggregation (GROUP BY, HAVING, AVG, MIN/MAX, CO
 Stuck: none
 Done: S20 — 2026-10-04 — SQL JOINs (INNER + LEFT); 4 drills all correct with 2 hints; understood LEFT JOIN table order + COUNT(*) vs COUNT(column) with NULLs; English E2 vocab 91–95 + shadowing; committed to learning-log.
 Stuck: none
+Done: S22 — 2026-10-05 — rebuilt S20 evidence (sql/s20_joins.sql, 117 lines) and corrected S20 hint count (0 → 2); completed schema probe (sql/s22_schema_probe.sql, 22 lines): SQLite accepts NULL twice in TEXT PRIMARY KEY (no error, count=2), unlike STRICT/WITHOUT ROWID tables which reject it; verified INTEGER PRIMARY KEY behavior separately; total hints so far: 0 reconstruction + 0 schema probe; committed and pushed to learning-log.
