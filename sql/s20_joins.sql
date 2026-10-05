@@ -6,7 +6,7 @@
 -- The commit date of this file does NOT reflect the execution date.
 --
 -- Source: reconstructed from the S20 session record, then re-executed to verify.
--- Only SQL written and executed by Hussam is included here.
+-- Contains the S20 drill queries, excluding teacher worked examples.
 --
 -- Database context in S20:
 --   - students (10 rows) — used in all JOIN queries
