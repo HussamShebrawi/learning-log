@@ -408,3 +408,61 @@
 
 1. Today I learned that **an INNER JOIN keeps only the rows that match in both tables, while a LEFT JOIN keeps all rows from the left table even if there is no match**.
 2. I also learned that **`COUNT(column)` ignores null values, but `COUNT(*)` counts every row, even if its columns are null**.
+
+
+---
+
+## English Log — Words 96–100
+
+## 96. subquery (n.)
+- **Meaning (AR):** استعلام مُتداخل — استعلام موضوع داخل استعلام آخر، ويعمل كجزء منه
+- **Example:** I used a **subquery** to find the average price, and the outer query showed only the expensive products.
+
+## 97. schema (n.)
+- **Meaning (AR):** البنية المنطقية لقاعدة البيانات: الجداول والأعمدة والقيود
+- **Example:** I opened the **schema** and saw that the orders table has a foreign key to customers.
+
+## 98. normalize (v.)
+- **Meaning (AR):** توحيد البيانات في صيغة واحدة متسقة
+- **Example:** The dates were saved in three different formats, so I **normalized** them before the join.
+
+## 99. framework (n.)
+- **Meaning (AR):** هيكل أو طبقة برمجية أساسية يُبنى عليها النظام (مثل Flask وDjango)
+- **Example:** We chose the Flask **framework** because it is light and quick to start with.
+
+## 100. endpoint (n.)
+- **Meaning (AR):** عنوان URL يستجيب له الـ API
+- **Example:** The /users **endpoint** returns the list of all users as JSON.
+
+---
+
+## Shadowing (3× — done)
+
+1. "SELECT name, grade FROM students WHERE grade > ( SELECT AVG(grade) FROM students )"
+2. "SELECT name, major FROM students WHERE major IN ( SELECT major_name FROM majors WHERE department = 'Engineering' )"
+3. "SELECT major_name, min_admission_avg FROM majors WHERE min_admission_avg > ( SELECT AVG(min_admission_avg) FROM majors )"
+
+
+---
+
+## Completions
+
+1. "The report needed one row per customer, so I wrote a **subquery** that returns the latest order for each customer, and the outer query joined it back to the customers table."
+2. "Before I loaded the new rows into the database, I checked the **schema** to make sure the columns and data types matched the target table."
+3. "Some phone numbers were saved as +962..., others as 00962..., so I had to **normalize** them into a single consistent format before the join."
+
+---
+
+## Free Sentences
+
+1. We built the reporting tool on the Flask **framework** because it is lightweight, and we exposed a single **endpoint** that returns the summary as JSON.
+2. Before writing the **subquery**, I opened the **schema** to confirm the foreign key between orders and customers, then I had to **normalize** the dates so the join would not fail.
+
+---
+
+## Comprehension
+
+1. **(Who)** Other teams can call the `/weekly-summary` endpoint, and they use the result by calling it from their own scripts (the endpoint returns the result as JSON).
+2. **(What)** The subquery finds the latest order for each customer.
+3. **(Why)** Because some names are in upper case and some dates use a different format, so the tool normalizes the data to make it consistent before inserting it.
+
