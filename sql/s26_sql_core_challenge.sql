@@ -1,10 +1,10 @@
 -- ============================================================
 -- File: sql/s26_sql_core_challenge.sql
 -- Session: S26 — SQL core challenge
--- Goal (single analytic query, written in a later step):
+-- Goal (single analytic query):
 --   JOIN + aggregation + (subquery OR window)
--- This file currently contains ONLY the setup (schema + seed data).
--- The analytic query is intentionally NOT written yet.
+-- This file contains the setup (schema + seed data) AND the single
+-- analytic query written in the same session.
 -- ============================================================
 --
 -- Design notes for the setup:
@@ -89,7 +89,7 @@ GROUP BY m.major_name
 HAVING COUNT(s.student_id) > 1;
 
 -- ============================================================
--- Analytic query (Task 2 deliverable)
+-- Analytic query (Task 4 deliverable)
 -- ------------------------------------------------------------
 -- Q: For every major (including those with no students), how many
 --    students are enrolled, what is their average grade, and how do
