@@ -466,3 +466,12 @@
 2. **(What)** The subquery finds the latest order for each customer.
 3. **(Why)** Because some names are in upper case and some dates use a different format, so the tool normalizes the data to make it consistent before inserting it.
 
+---
+
+## S27 — 2026-10-14 — English production (E2)
+- Artifact: sql/s26_sql_core_challenge.sql
+- Decision explained: RANK() OVER window on aggregated majors
+- Word bank used: rank, window, aggregate, average, orphan, ordering
+- Sentence 1: I used `RANK() OVER (ORDER BY AVG(s.grade) DESC)` because I needed to rank the major groups after aggregation, and I chose a window function to keep every group visible instead of collapsing them again.
+- Sentence 2: In the output I got 5 rows and 5 columns, with CS ranked first at 83.83, and Cybersecurity appearing as an orphan row with 0 students and a NULL average at rank 5.
+- Originality checklist: own artifact: y | own claim order: y | reuses Teacher rationale: n
