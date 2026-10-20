@@ -1,0 +1,13 @@
+student_id,name,age,email,grade,major
+1001,Fatima,,s1001@university.edu,73.51,Data Science
+1002,,24,s1002@university.edu,95.67,AI
+1003,KHALID,,s1003@university.edu,94.95,CS
+1004,Fatima,,s1004@university.edu,62.4,CS
+1005,fatima,18,@missing.com,61.03,CS
+1006,,20,s1006@university.edu,80.0,Data Science
+1007,,20,s1007@university.edu,55.16,Data Science
+1008,MONA,24,s1008@university.edu,69.36,
+1009,,22,,82.69,AI
+1010,Mona,18,s1010@university.edu,51.48,AI
+,LAYLA,twentyone,invalid-email,82.27,
+1010,Layla,19,user@domain,50.95,
