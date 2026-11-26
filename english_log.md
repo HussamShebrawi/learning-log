@@ -475,3 +475,18 @@
 - Sentence 1: I used `RANK() OVER (ORDER BY AVG(s.grade) DESC)` because I needed to rank the major groups after aggregation, and I chose a window function to keep every group visible instead of collapsing them again.
 - Sentence 2: In the output I got 5 rows and 5 columns, with CS ranked first at 83.83, and Cybersecurity appearing as an orphan row with 0 students and a NULL average at rank 5.
 - Originality checklist: own artifact: y | own claim order: y | reuses Teacher rationale: n
+
+---
+
+## S29 — 2026-11-26 — English production (E3)
+- Artifact: pandas/s28c_pandas_merge_groupby.py
+- Decision explained: keeping the missing-major row with a left merge on `major`, then checking the default `groupby` exclusion with `dropna=False`
+- Word bank used: (none — free production)
+- Paragraph: I chose to keep the missing-major row in the merged frame by using a left merge on `major`, so the row count stayed 10 → 10 and no student was dropped. Then I ran a default `groupby`, and it collected counts for 9 of 10 rows because the missing-major row was excluded. To check that exclusion, I re-ran the same `groupby` with `dropna=False`; a third group appeared with mean 69.360000 and count 1. This confirmed that the missing-major row was being dropped by the default setting, not by the merge itself. The numbers 9 of 10, 69.360000, and 1 are taken directly from the recorded output.
+- Honest limit: This artifact proves the numeric behavior only on this dataset; it does not prove that the missing department is a data error rather than genuinely unknown, nor that the same `dropna` behavior will hold on other data.
+- Facts trace:
+  - left merge on `major` → rows 10 → 10 (recorded: merged_df (10, 7))
+  - default groupby count sum = 9 of 10 (recorded: sum of count 9, rows 10)
+  - dropna=False → third group mean 69.360000, count 1 (recorded: NaN 69.360000 1)
+  - "silently" removed: the log does not state whether warnings appeared, so the claim was dropped.
+- Originality checklist: own artifact: y | own claim order: y | reuses Teacher rationale: n
